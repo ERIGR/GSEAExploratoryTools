@@ -1,0 +1,4 @@
+10 2 1
+# CB N
+CB CB CB CB CB N N N N N
+

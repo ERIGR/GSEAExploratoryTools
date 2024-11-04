@@ -1,0 +1,4 @@
+10 2 1
+# CC N
+CC CC CC CC CC N N N N N
+
