@@ -1,4 +1,4 @@
-Package: GSEAHelpTools
+Package: GSEAExploratoryTools
 Type: Package
 Title: functions that allow to import GSEA results in R and to interpret and make some figures from these data
 Version: 0.1.0

@@ -1,8 +1,8 @@
-#' @title gseahelptools_example
+#' @title GSEAExploratoryTools_example
 #'
-#' @description Get path to gseahelptools examples
+#' @description Get path to GSEAExploratoryTools_example examples
 #'
-#' gseahelptools comes bundled with some example files in its `inst/extdata`
+#' GSEAExploratoryTools comes bundled with some example files in its `inst/extdata`
 #' directory. This function make them easy to access.
 #'
 #' @param path Name of file. If `NULL`, the example files will be listed.
@@ -14,9 +14,9 @@
 
 GSEAExploratoryTools_example <- function(path = NULL) {
   if (is.null(path)) {
-    dir(system.file("extdata", package = "GSEAHelpTools"))
+    dir(system.file("extdata", package = "GSEAExploratoryTools"))
   } else {
-    system.file("extdata", path, package = "GSEAHelpTools", mustWork = TRUE)
+    system.file("extdata", path, package = "GSEAExploratoryTools", mustWork = TRUE)
   }
 }
 
